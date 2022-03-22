@@ -4,7 +4,7 @@
 - 💞️ I’m interested to collaborate on open source projects...
 - 📫 You can ping me at www.fb.com/JaberWiki
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=JaberWiki&show_icons=true&theme=dark)
+![A](https://github-readme-stats.vercel.app/api?username=JaberWiki&show_icons=true&theme=solarized-dark&count_private=true)
 
 <!---
 hmsjaber/JaberWiki is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
