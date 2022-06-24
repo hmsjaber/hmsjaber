@@ -8,7 +8,7 @@
 
 [![GitHub Streak](https://github-readme-streak-stats&#46;herokuapp&#46;com?user=JaberWiki&theme=dark&date_format=M%20j%5B%2C%20Y%5D)](#)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JaberWiki&layout=compact&count_private=true&show_icons=true&hide=css,html&card_width=445&bg_color=151515&icon_color=E98302&title_color=FA8B00&text_color=FAFAFA)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats&#46;vercel&#46;app/api/top-langs/?username=JaberWiki&layout=compact&count_private=true&show_icons=true&hide=css,html&card_width=445&bg_color=151515&icon_color=E98302&title_color=FA8B00&text_color=FAFAFA)](#)
 
 <!---
 hmsjaber/JaberWiki is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
