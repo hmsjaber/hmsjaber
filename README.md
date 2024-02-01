@@ -1,4 +1,4 @@
-[![jaber](https://github.com/jaberwiki/gitartwork/blob/main/gitartwork.svg)](https://github.com/jaberwiki)
+[![Jaber](https://github.com/JaberWiki/JaberWiki/blob/main/gitartwork.svg)](https://github.com/jaberwiki)
 - <img src="https://komarev.com/ghpvc/?username=jaberwiki" alt=jaberwiki />
 
 - 👋 Hi, I’m Jaber
