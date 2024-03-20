@@ -27,7 +27,7 @@ jobs:
                 uses: yoshi389111/github-profile-3d-contrib@0.7.1
                 env:
                     GITHUB_TOKEN: ${{ secrets.GITTO_TOKEN }}
-                    USERNAME: jaberwiki
+                    USERNAME: JaberWiki
 
             -   name: Store changes
                 id: store
