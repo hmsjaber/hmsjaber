@@ -16,9 +16,12 @@ jobs:
         steps:
             -   name: Checkout code
                 uses: actions/checkout@v4
-                
+
             -   name: Fetch all branches
                 run: git fetch --all
+
+            -   name: Merge with remote
+                run: git pull origin main            
 
             -   name: Git setup
                 if: success()
