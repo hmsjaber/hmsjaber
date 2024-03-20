@@ -12,7 +12,7 @@
 
 [![Top Langs](https://github-readme-stats&#46;vercel&#46;app/api/top-langs/?username=JaberWiki&layout=compact&count_private=true&show_icons=true&hide=css,html&card_width=445&bg_color=151515&icon_color=E98302&title_color=FA8B00&text_color=FAFAFA)](#)
 
-![3d profile](./profile-3d-contrib/profile-night-green.svg)
+![3d profile](./profile-3d-contrib/profile-night-rainbow.svg)
 <!---
 hmsjaber/JaberWiki is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
