@@ -1,0 +1,46 @@
+name: "3D Commit Profile"
+
+on:
+    schedule:
+        -   cron: 0 0 * * *
+    push:
+        branches: [ main ]
+    workflow_dispatch:
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        name: Generate
+
+        steps:
+            -   name: Checkout code
+                uses: actions/checkout@v4
+
+            -   name: Git setup
+                if: success()
+                run: |
+                    git config --local user.email "mdsjaber@gmail.com"
+                    git config --local user.name "Hossain Mohammad Shahidullah"
+
+            -   name: Generate 3D profile
+                uses: yoshi389111/github-profile-3d-contrib@0.7.1
+                env:
+                    GITHUB_TOKEN: ${{ secrets.GITTO_TOKEN }}
+                    USERNAME: jaberwiki
+
+            -   name: Store changes
+                id: store
+                if: success()
+                run: |
+                    IS_DIRTY=1
+                    
+                    { git add ./profile-3d-contrib/profile-night-green.svg && git commit -a -m "📊 3D profile commit image generated!"; } || IS_DIRTY=0
+                    
+                    echo ::set-output name=is_dirty::${IS_DIRTY}
+
+            -   name: Push changes
+                uses: ad-m/github-push-action@master
+                if: success() && steps.store.outputs.is_dirty == 1
+                with:
+                    github_token: ${{ secrets.GITTO_TOKEN }}
