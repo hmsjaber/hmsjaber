@@ -2,7 +2,6 @@
 - <img src="https://komarev.com/ghpvc/?username=jaberwiki" alt=jaberwiki />
 
 - 👋 Hi, I’m Jaber
-- 🌱 I’m currently working in a software company named Magnetism Tech LTD ...
 - 📑 I’m interested to collaborate on open source projects...
 - 💬 You can ping me at [WhatsApp](https://api.whatsapp.com/send/?phone=+8801850182488&text=I%20would%20like%20to%20talk%20to%20you%20about%20your%20services.)
 
